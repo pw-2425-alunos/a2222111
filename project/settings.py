@@ -150,3 +150,8 @@ MEDIA_ROOT = '/home/mdmourao1/project/media'
 MEDIA_URL = '/media/'
 STATIC_ROOT = '/home/mdmourao1/project/static'
 STATIC_URL = '/static/'
+
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://a2222111.pw.deisi.ulusofona.pt",
+]
